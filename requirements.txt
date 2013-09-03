@@ -1,0 +1,7 @@
+Django==1.5
+wsgiref==0.1.2
+biblion
+dj-database-url
+pil
+creole==1.2
+Pygments==1.2.2

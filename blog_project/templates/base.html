@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/hej.js">
+    </script>
+    {% block extrahead %}
+
+        <script type="text/javascript">
+            alert(3);
+        </script>
+    {% endblock %}
+</head>
+<body class="{% block bodyclass %}{% endblock %}">
+
+{% block content %}
+
+{% endblock %}
+
+</body>
+</html>

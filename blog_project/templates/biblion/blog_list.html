@@ -1,0 +1,15 @@
+{% extends 'biblion/blog_base.html' %}
+
+{% block content %}
+
+<ul>
+
+{% for entry in posts %}
+
+    <li><a href="{% url 'blog_post_pk' post_pk=entry.id %}">{{ entry }}</a></li>
+
+{% endfor %}
+
+</ul>
+
+{% endblock %}
