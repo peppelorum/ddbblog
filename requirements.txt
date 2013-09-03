@@ -6,3 +6,4 @@ pil
 creole==1.2
 Pygments==1.2.2
 psycopg2
+gunicorn
